@@ -75,7 +75,7 @@ public class ImageHelper : ImageHelperAbstract
         {
             var detection = result.Boxes[i];
 
-            if (!(detection.Confidence >= 0.756)) continue; // 0.75f or 0.756
+            if (!(detection.Confidence >= 0.756f)) continue; // 0.75f or 0.756 or 0.756f
 
             var bounds = new Rect(
                 detection.Bounds.X,
