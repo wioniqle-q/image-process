@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="MassTransit.RabbitMQ" Version="8.2.0-develop.1655"/>
+        <PackageReference Include="NetEscapades.AspNetCore.SecurityHeaders" Version="0.21.0"/>
+        <PackageReference Include="NetEscapades.AspNetCore.SecurityHeaders.TagHelpers" Version="0.21.0"/>
+        <PackageReference Include="OpenCvSharp4.Extensions" Version="4.9.0.20240103"/>
+        <PackageReference Include="OpenCvSharp4.Windows" Version="4.9.0.20240103"/>
+        <PackageReference Include="System.Drawing.Common" Version="8.0.1"/>
+        <PackageReference Include="YoloV8" Version="3.0.0"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Bottle.Domain\Bottle.Domain.csproj"/>
+    </ItemGroup>
+
+</Project>
