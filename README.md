@@ -1,1 +1,1 @@
-# image-process
+It is used to detect the instantaneous object from the camera using Yolov8. The trained model has been converted to onnx model and the python code is written for raspberry instantly from the camera and the image taken from the camera is converted to byte and processed by the .net core api side and aimed to be detected with yolov8. If there is a detected object, it will return true, otherwise false. The raspberry here can be changed and a request can be made from the desired hardware.
